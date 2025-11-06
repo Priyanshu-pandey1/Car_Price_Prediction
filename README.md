@@ -77,21 +77,3 @@ Two regression models were trained and compared for this task.
 This R² score means that the Lasso model can explain **87% of the variability** in the used car prices, which indicates a strong and accurate fit on unseen data.
 
 ---
-
-## 🚀 How to Use the Predictive System
-
-You can use the trained model to predict the price of a new, unseen car sample.
-
-1.  Define your input data as a tuple or list containing the 7 features in the correct order:
-    ```python
-    # (Year, Present_Price, Kms_Driven, Owner, Fuel_Type, Seller_Type, Transmission)
-    # Example: 2014, 5.59 Lakhs, 27000 Kms, 0 Owners, Petrol (0), Dealer (0), Manual (0)
-    
-    input_data = (2014, 5.59, 27000, 0, 0, 0, 0)
-    ```
-
-2.  The script will process this data, make a prediction, and print the result:
-    ```
-    Prediction: [4.5]
-    Predicted Selling Price: 4.5 Lakhs
-    ```
