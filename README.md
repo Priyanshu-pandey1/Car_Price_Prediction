@@ -33,7 +33,7 @@ The model is trained on a dataset of used car sales, learning the relationships 
     * `LinearRegression`
     * `Lasso` (which uses L1 Regularization)
 7.  **Model Evaluation:** Evaluate both models using the **R-squared (R²) score** on both the training and test data to check for performance and overfitting.
-8.  **Visualization:** Create scatter plots to visually compare the `Actual Prices` vs. the `Predicted Prices` from the models.
+8.  **Visualization:** Create scatter plots to visually compare the `Actual Prices` vs. the `Predicted Prices` from the models. 
 
 ---
 
